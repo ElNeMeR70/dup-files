@@ -1,0 +1,32 @@
+{
+  "name": "@elnemer70/dup-files",
+  "version": "1.0.0",
+  "description": "Find duplicate files in any directory using SHA-256 chunk hashing",
+  "bin": {
+    "dup-files": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "duplicates",
+    "cleanup",
+    "storage"
+  ],
+  "author": "ElNeMeR70",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElNeMeR70/dup-files.git"
+  },
+  "homepage": "https://github.com/ElNeMeR70/dup-files#readme",
+  "bugs": {
+    "url": "https://github.com/ElNeMeR70/dup-files/issues"
+  }
+}
